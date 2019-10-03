@@ -1,0 +1,6 @@
+table thead tr th .th-sortable {
+    cursor: pointer;
+}
+table tbody tr td, table thead tr th {
+    vertical-align: middle;
+}

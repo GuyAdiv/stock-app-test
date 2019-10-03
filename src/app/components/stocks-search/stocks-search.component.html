@@ -1,0 +1,7 @@
+<div class="form-inline mt-5">
+    <label for="inputStockSearch" class="mr-sm-2">Search Stock: </label>
+    <input id="inputStockSearch" type="text"
+        placeholder="e.g ORA, GE"
+        class="form-control mr-sm-2" [(ngModel)]="symbole">
+    <button class="btn btn-primary" (click)="onBtnSearchClick()">Search</button>
+</div>

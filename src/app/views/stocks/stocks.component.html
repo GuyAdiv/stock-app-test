@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <app-stocks-search (onStockSearch)="onStockSearch($event)"></app-stocks-search>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <app-stocks-table [stocks]="stocks" 
+                (onStockRemoved)="onStockRemove($event)"
+                (onStockClear)="onStockClear()"></app-stocks-table>
+    </div>
+</div>
+  
